@@ -18,7 +18,7 @@ void print_arr(int *arr, int size) {
 }
 
 int main(void) {
-    int arr[] = {5, 2, 8, 1, 9, 5};
+    int arr[] = {5, 2, 8, 1, 9, 3};
     int size = 6;
 
     qsort(arr, size, sizeof(int), cmp_asc);
